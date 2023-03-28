@@ -1,9 +1,10 @@
+main {
+  height: 100vh;
+}
+
 .wrap {
   background-color: bisque;
   width: 100%;
-}
-body {
-  height: 100vh;
 }
 
 .header {

@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="wrap">
       <header className="header">헤더부분</header>
-      <body>
+      <main>
         <div className="content">{cardlist}</div>
-      </body>
+      </main>
     </div>
   );
 }
