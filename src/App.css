@@ -1,27 +1,34 @@
-.App {
+.wrap {
   background-color: bisque;
+  width: 100%;
 }
+body {
+  height: 100vh;
+}
+
+.header {
+  width: 80%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: aquamarine;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 80%;
+  background-color: yellow;
+  margin: 0 auto;
+  height: 100%;
+}
+
 .card {
+  box-sizing: border-box;
   width: 100px;
   height: 100px;
   border: 1px solid black;
   text-align: center;
   display: inline-block;
-}
-.header {
-  width: 720px;
-  border: 1px solid black;
-  background-color: aquamarine;
-  margin: 0px 40px;
-}
-
-.body {
-  width: 720px;
-  border: 1px solid black;
-  margin: 0px 40px;
-}
-
-.content {
-  width: 720px;
-  background-color: yellow;
+  background-color: burlywood;
 }

@@ -10,13 +10,11 @@ function App() {
     </div>
   ));
   return (
-    <div className="App">
-      <header>
-        <div className="header">헤더부분</div>
-      </header>
-      <div className="body">
+    <div className="wrap">
+      <header className="header">헤더부분</header>
+      <body>
         <div className="content">{cardlist}</div>
-      </div>
+      </body>
     </div>
   );
 }
