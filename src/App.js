@@ -14,7 +14,9 @@ function App() {
       <header>
         <div className="header">헤더부분</div>
       </header>
-      <div className="body">{cardlist}</div>
+      <div className="body">
+        <div className="content">{cardlist}</div>
+      </div>
     </div>
   );
 }

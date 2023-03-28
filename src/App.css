@@ -1,3 +1,6 @@
+.App {
+  background-color: bisque;
+}
 .card {
   width: 100px;
   height: 100px;
@@ -6,6 +9,19 @@
   display: inline-block;
 }
 .header {
-  width: 100%;
+  width: 720px;
   border: 1px solid black;
+  background-color: aquamarine;
+  margin: 0px 40px;
+}
+
+.body {
+  width: 720px;
+  border: 1px solid black;
+  margin: 0px 40px;
+}
+
+.content {
+  width: 720px;
+  background-color: yellow;
 }
